@@ -1,0 +1,117 @@
+.body{
+ background-image: url("img/main-bg.jpeg");
+ background-size: 100vw 100vh;
+ background-repeat:no-repeat;
+}
+.header{
+color: white;
+font-size: 27px;
+font-family: 'Maven Pro', sans-serif;
+font-weight: bold;
+}
+#headerWord1{
+  margin-left: 11%;
+}
+#headerWord2{
+margin-left: 29%;
+margin-right: 27%
+}
+#headerWord3{
+}
+.your{
+  text-align: center;
+  color: white;
+  font-size: 99px;
+  margin-top: 24vh;
+font-family: 'Maven Pro', sans-serif;
+font-weight:900;
+}
+.maintext {
+  text-align: center;
+  color: white;
+  font-size: 27px;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 600;
+}
+.circle{
+  background-color: white;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+margin-top: 29vh;
+margin-left: 47%;
+position: relative;
+}
+.arrow{
+  width: 20px;
+  height: 40px;
+  position: relative;
+  left: 35%;
+  top: 20%;
+
+}
+.hamburger{
+  display: none;
+}
+.twitter{
+  display: none;
+}
+.facebook{
+  display: none;
+}
+
+@media (max-width: 700px){
+.header{
+  display: none;
+}
+.hamburger{
+  display: block;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  border: solid white 3px;
+  position: absolute;
+  top: 3vh;
+  left: 3vw;
+}
+.line1{
+  width: 43px;
+  height: 3px;
+  background-color: white;
+  position: relative;
+  top: 21px;
+  left: 12px;
+}
+.line2{
+  width: 43px;
+  height: 3px;
+  background-color: white;
+  position: relative;
+  top: 28px;
+  left: 12px;
+}
+.line3{
+  width: 43px;
+  height: 3px;
+  background-color: white;
+  position: relative;
+  top: 35px;
+  left: 12px;
+}
+.twitter{
+  display: block;
+  position:absolute;
+  height: 30px;
+  width: 30px;
+  top: 5vh;
+  right: 13vw;
+}
+.facebook{
+  display: block;
+  position:absolute;
+  height: 30px;
+  width: 30px;
+  right: 5vw;
+  top: 5vh;
+}
+}
